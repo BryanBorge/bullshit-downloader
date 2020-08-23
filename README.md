@@ -1,5 +1,5 @@
 # Bullshit-Downloader
-> I came across a website that contains all of the episodes for the TV show *[Penn & Teller: Bullshit.](https://www.imdb.com/title/tt0346369/)* I decided that instead of downloading each episode one by one I would write a Python script to do it for me. Using Selenium, BeautifulSoup and urllib, this is the solution I came up with. 
+> I came across a website that contains all of the episodes for the TV show *[Penn & Teller: Bullshit.](https://www.imdb.com/title/tt0346369/)* I decided that instead of downloading each episode one by one I would write a Python script to do it for me. Using [Selenium](https://selenium-python.readthedocs.io/), [BeautifulSoup](https://pypi.org/project/beautifulsoup4/) and [urllib](https://docs.python.org/3/library/urllib.html), this is the solution I came up with. 
 
 
 ## Clone

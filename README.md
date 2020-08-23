@@ -25,7 +25,7 @@ pip install urllib3
 
 > Configure Chrome webdriver
 - Find which version of chrome you are running and download the correct [driver](https://chromedriver.chromium.org/downloads)
-- Add the Chrome webdriver to the PATH and use
+- Add the Chrome webdriver to PATH and use
   ```python
   driver = webdriver.Chrome() 
   ````

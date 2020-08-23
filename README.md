@@ -6,7 +6,7 @@
 - Clone repo to your local machine using `https://github.com/BryanBorge/bullshit-downloader.git`
 
 ## Installation and Setup
-- Repo contains all code required to get started
+- Repo contains all code required to get started, you just need to install the libraries. 
 
 > Install BeautifulSoup 
 ````shell
@@ -18,7 +18,7 @@ pip install BeautifulSoup4
 pip install selenium
 ````
 
-> Install urllib python3
+> Install urllib with python3
 ````shell
 pip install urllib3
 ````
@@ -26,9 +26,13 @@ pip install urllib3
 > Configure Chrome webdriver
 - Find which version of chrome you are running and download the correct [driver](https://chromedriver.chromium.org/downloads)
 - Add the Chrome webdriver to the PATH and use
-  `driver = webdriver.Chrome()` 
+  ```python
+  driver = webdriver.Chrome() 
+  ````
   or point to its location and use 
-  `driver = webdriver.Chrome("C:\Path to chromedriver.exe")`
+    ```python
+  driver = webdriver.Chrome("C:\Path to chromedriver.exe")
+   ````
 
 ## Usage
 - Once the above steps are complete, run the script using VS code or similar. 

@@ -12,3 +12,14 @@
 ````shell
 pip install BeautifulSoup4
 ````
+
+> Install Selenium 
+````shell
+pip install selenium
+````
+
+> Install urllib python3
+````shell
+pip install urllib3
+````
+

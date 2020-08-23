@@ -29,3 +29,14 @@ pip install urllib3
   `driver = webdriver.Chrome()` 
   or point to its location and use 
   `driver = webdriver.Chrome("C:\Path to chromedriver.exe")`
+
+## Usage
+- Once the above steps are complete, run the script using VS code or similar. 
+- A Chrome window should pop up and begin to scroll on the site followed by downloading each video file. 
+
+## License
+
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+
+- **[MIT license](http://opensource.org/licenses/mit-license.php)**
+- Copyright 2015 © <a href="http://fvcproductions.com" target="_blank">FVCproductions</a>.

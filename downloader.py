@@ -33,16 +33,13 @@ scroll(driver, 1)
 mainSoup = BeautifulSoup(driver.page_source, features="html.parser")
 
 episodeLinks = []
-episodeNames = []
 
 for link in mainSoup.find_all("a"):
     if "PENN & TELLER" in str(link.string):
-        episodeNames.append(link.string)
         episodeLinks.append(link.get("href"))
 
 # Remove duplicates
 episodeLinks = set(episodeLinks)
-episodeNames = list(set(episodeNames))
 
 # Base video url
 videoUrl = "https://www.bitchute.com/"

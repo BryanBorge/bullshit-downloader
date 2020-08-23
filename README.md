@@ -23,3 +23,6 @@ pip install selenium
 pip install urllib3
 ````
 
+> Configure Chrome webdriver
+- asd
+- asd
